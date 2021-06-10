@@ -1,0 +1,45 @@
+@import "fonts/fonts.scss";
+
+$dark_shade_100:#1F2041;
+$dark_shade_75:#1F2041BF;
+$dark_shade_50:#1F204180;
+$dark_shade_25:#1F204140;
+$dark_shade_5:#1F20410D;
+$purple:#BC9CFF;
+$green:#6FCF97;
+
+@mixin font {
+    font-family: Montserrat-Black;
+    font-style: normal; 
+    font-weight: bold; 
+}
+
+#text_h1 {
+    @include font();
+    font-size: 24px;
+    line-height: 29px;
+}
+#text_h2 {
+    @include font();
+    font-size: 19px;
+    line-height: 23px;
+        }
+#text_3 {
+    @include font();
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+#text_body {
+    @include font();
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+}
+
+.text{
+    font-size: large;
+
+}
+    
